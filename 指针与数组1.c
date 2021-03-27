@@ -11,6 +11,7 @@ int main()
 		for (s = 0; s < 4; s++)
 		{
 			scanf_s("%f",&score[m][s]);
+                        //可不可以用指针来输入？
 		}
 	}
 	search(score, 3);
